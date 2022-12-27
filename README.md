@@ -41,10 +41,11 @@ $$
 $$ 
 %
 
-The Figure bellow shows the numerical solution of rigit maps equations for the given boundary conditions.  
+The following figure illustrates the numerical solution for the rigid map equations with the specified boundary conditions.
+
 ![surf_solution2](https://user-images.githubusercontent.com/49443913/209683046-72002bf0-68f5-45ae-be4e-290270498fb0.png)
 
-The map of the solution is dispayed bellow
+Below, you will find the map of the solution.
 
 ![map2](https://user-images.githubusercontent.com/49443913/209685060-722fb60e-46d5-47f5-94cc-b2f5ea79f737.png)
 
