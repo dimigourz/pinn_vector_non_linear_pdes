@@ -1,8 +1,6 @@
 # Model problem
 
-We consider bounded domain 
-
-Find $\mathbf{u} : \Omega \subset \mathbb{R}^2  \rightarrow \mathbb{R}^3$ such that 
+We consider $\Omega=[-1,1]$. Find $\mathbf{u} : \Omega \subset \mathbb{R}^2  \rightarrow \mathbb{R}^3$ such that 
 
 $$
 \begin{cases}
@@ -31,6 +29,22 @@ $$
 
 
 
-#Numerical results
+# Numerical results
+
+We consider a test case where
+
+$ \left( \begin{array}{c} x_1 \\   \textrm{sign}(x_2) (1-\cos(x_2))   \\ \sin(\vert x_2\vert )$
+
+$$
+\mathbf{g}(x_1,x_2) = \left( \begin{array}{c} x_1 \\   \textrm{sign}(x_2) (1-\cos(x_2))   \\ \sin(\vert x_2\vert )     \end{array} \right), 
+\quad \forall (x_1,x_2) \in \Omega.
+$$ 
+%
+
+The Figure bellow shows the numerical solution of rigit maps equations for the given boundary conditions  
+![surf_solution2](https://user-images.githubusercontent.com/49443913/209683046-72002bf0-68f5-45ae-be4e-290270498fb0.png)
+
+
+
 
 
